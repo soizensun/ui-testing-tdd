@@ -11,7 +11,8 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_d7ea894073de534"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -43,5 +44,7 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.23",
     "vite": "^4.3.9"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ui-testing-tdd@0.0.0"
 }
