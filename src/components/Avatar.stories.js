@@ -1,40 +1,43 @@
-import { Avatar } from './Avatar';
+import Avatar from './Avatar';
 
 export default {
-  title: 'Example/Avatar',
-  component: Avatar,
-  tags: ['autodocs'],
+    title: 'Example/Avatar',
+    component: Avatar,
+    tags: ['autodocs'],
 };
 
 export const WithPicture = {
-  args: {
-    src: "https://avatars.githubusercontent.com/u/26242553?s=96&v=4",
-    size: "sm"
-  },
-};
+    args: {
+        src: "https://avatars.githubusercontent.com/u/26242553?s=96&v=4",
+    }
+}
 
 export const WithName = {
-  args: {
-    size: "lg",
-    children: "kc" 
-  },
+    args: {
+        children: "kc"
+    },
 };
+
+export const WithIcon = {
+    args: {
+    },
+  };
+
+  export const WithStyle = {
+    args: {
+      style: { backgroundColor: "green" }
+    },
+  };
+
 
 export const Small = {
-  args: {
-    size: "sm"
-  },
-};
-
-export const Large = {
-  args: {
-    size: "lg"
-  },
-};
-
-export const WithStyle = {
-  args: {
-    size: "lg",
-    style: {backgroundColor: "green"}
-  },
-};
+    args: {
+      size: "sm"
+    },
+  };
+  
+  export const Large = {
+    args: {
+      size: "lg"
+    },
+  };
