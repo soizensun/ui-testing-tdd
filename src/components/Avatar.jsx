@@ -12,7 +12,7 @@ export default function Avatar({ src, size, children, style, ...props }) {
                 boxShadow: "inset 0 0 0 1px rgba(0 0 0 / 0.08)",
                 borderRadius: "50%",
                 width: 80,
-                height: 80,
+                height: 75,
                 fontSize: 24,
                 fontWeight: 500,
                 ...(size === "sm" && {
